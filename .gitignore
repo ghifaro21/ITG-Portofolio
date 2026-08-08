@@ -1,0 +1,13 @@
+# Dependencies & Build Files (JANGAN DI-UPLOAD)
+node_modules/
+.next/
+.npm-cache/
+.repair-*/
+*.tgz
+
+# Environment Variables (Keamanan)
+.env*.local
+
+# OS Junk
+.DS_Store
+Thumbs.db
