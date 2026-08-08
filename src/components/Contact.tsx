@@ -153,7 +153,7 @@ export default function Contact() {
                     id="name"
                     type="text"
                     required
-                    placeholder="e.g. Alex Pratama"
+                    placeholder="Budiono"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className="w-full px-4 py-3 rounded-xl bg-slate-900/80 border border-slate-700/80 text-white placeholder-slate-500 focus:outline-none focus:border-electric-500 focus:ring-1 focus:ring-electric-500 text-sm transition-all"
@@ -168,7 +168,7 @@ export default function Contact() {
                     id="email"
                     type="email"
                     required
-                    placeholder="e.g. alex@company.com"
+                    placeholder="budiono123@company.com"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     className="w-full px-4 py-3 rounded-xl bg-slate-900/80 border border-slate-700/80 text-white placeholder-slate-500 focus:outline-none focus:border-electric-500 focus:ring-1 focus:ring-electric-500 text-sm transition-all"
@@ -183,7 +183,7 @@ export default function Contact() {
                     id="message"
                     rows={4}
                     required
-                    placeholder="Hi Ilham, I'd like to discuss a data analytics dashboard project..."
+                    placeholder="Hi Ghifar, I'd like to discuss a machine learning or data analytics dashboard project"
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     className="w-full px-4 py-3 rounded-xl bg-slate-900/80 border border-slate-700/80 text-white placeholder-slate-500 focus:outline-none focus:border-electric-500 focus:ring-1 focus:ring-electric-500 text-sm transition-all resize-none"
