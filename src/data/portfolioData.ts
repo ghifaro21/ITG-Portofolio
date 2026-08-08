@@ -33,7 +33,7 @@ export const PERSONAL_INFO = {
   email: "ilhamtagh@gmail.com",
   phone: "+62 81323221255",
   linkedin: "https://linkedin.com/in/itghifari/",
-  github: "https://github.com/itghifari",
+  github: "https://github.com/ghifaro21",
   whatsapp: "https://wa.me/6281323221255",
   bio: "Transforming Complex Data into Actionable Business Insights & ML Solutions.",
   subBio: "Data Science student at ULBI specializing in Machine Learning, Business Intelligence, and Interactive Web Analytics.",
@@ -59,7 +59,7 @@ export const PROJECTS: Project[] = [
       "Trained Random Forest classifier reaching 85.51% accuracy and 0.9538 Macro ROC AUC.",
       "Deployed interactive real-time risk prediction application on Streamlit integrated with GIS map visualization."
     ],
-    githubUrl: "https://github.com/itghifari/klasifikasi-perlintasan-sebidang-bandung",
+    githubUrl: "https://github.com/ghifaro21/rf-level-crossing-risk-bandung",
   },
   {
     id: "proj-2",
@@ -108,7 +108,7 @@ export const PROJECTS: Project[] = [
       "Engineered real-time GPA/IPS calculation system for university students.",
       "Designed clean MVC architecture with intuitive UI for academic progress forecasting and target tracking."
     ],
-    githubUrl: "https://github.com/itghifari/4in-sight-academic-analytics",
+    githubUrl: "https://github.com/ghifaro21/4inSight-Web",
   },
   {
     id: "proj-5",
@@ -123,7 +123,7 @@ export const PROJECTS: Project[] = [
       "Built Decision Tree classification model predicting FIFA/FC25 player positions based on in-game attribute vectors.",
       "Achieved 77.76% accuracy and 77.62% F1-Score through comprehensive feature selection and data preprocessing."
     ],
-    githubUrl: "https://github.com/itghifari/fc25-player-position-classifier",
+    githubUrl: "https://github.com/ghifaro21/FC25-Player-Position-Classifier",
   }
 ];
 
