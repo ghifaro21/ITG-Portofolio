@@ -7,6 +7,8 @@ export interface Project {
   metrics?: { label: string; value: string }[];
   preview?: 'powerbi' | 'tableau';
   githubUrl?: string;
+  externalUrl?: string;
+  externalLabel?: string;
 }
 
 export interface Experience {
@@ -60,6 +62,8 @@ export const PROJECTS: Project[] = [
       "Deployed interactive real-time risk prediction application on Streamlit integrated with GIS map visualization."
     ],
     githubUrl: "https://github.com/ghifaro21/rf-level-crossing-risk-bandung",
+    externalUrl: "https://rf-level-crossing-risk.streamlit.app/",
+    externalLabel: "View Web App",
   },
   {
     id: "proj-2",

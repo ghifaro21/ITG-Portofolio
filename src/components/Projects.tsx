@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Eye, FileText, Layers, Sparkles, CheckCircle2, X } from 'lucide-react';
+import { ExternalLink, Eye, FileText, Layers, Sparkles, CheckCircle2, X } from 'lucide-react';
 import { GithubIcon } from '@/components/Icons';
 import TableauEmbed from '@/components/TableauEmbed';
 import { PROJECTS, Project } from '@/data/portfolioData';
@@ -179,6 +179,18 @@ function ProjectCard({ project }: { project: Project }) {
             >
               <GithubIcon className="w-4 h-4 text-slate-300" />
               <span>GitHub Repo</span>
+            </a>
+          )}
+
+          {project.externalUrl && (
+            <a
+              href={project.externalUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 flex items-center justify-center gap-2 py-2 px-3 rounded-lg text-xs font-semibold bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 hover:border-emerald-400 transition-all duration-200"
+            >
+              <ExternalLink className="w-4 h-4" />
+              <span>{project.externalLabel || 'View Web App'}</span>
             </a>
           )}
 
